@@ -1,0 +1,19 @@
+state={
+	id=1178
+	name="STATE_1178"
+	provinces={
+		3735 4603 8655 12504 12596 17647 
+	}
+	history={
+		buildings = {
+			infrastructure = 4
+		}
+
+		owner = AUS
+		add_core_of = CZE
+		add_core_of = SLO
+	}
+	manpower=63725
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,19 @@
+
+state={
+	id=620
+	name="STATE_620"
+	provinces={
+		1237 12297 18404 18437 18461 18469 18526 20146 
+	}
+	history={
+		buildings = {
+			infrastructure = 4
+		}
+
+		owner = LOM
+		add_core_of = LOM
+	}
+	manpower=68148
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

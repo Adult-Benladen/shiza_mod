@@ -1,0 +1,18 @@
+state={
+	id=239
+	name="STATE_239"
+	provinces={
+		1282 4839 7129 7403 8227 9484 9676 9917 10122 10641 13415 14920 14941 14953 14974 14986 
+	}
+	history={
+		buildings = {
+			infrastructure = 3
+		}
+
+		owner = BRS
+		add_core_of = BRS
+	}
+	manpower=39985
+	buildings_max_level_factor=1.000
+    state_category=pastoral
+}

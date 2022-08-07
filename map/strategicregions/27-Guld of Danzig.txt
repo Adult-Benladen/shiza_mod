@@ -1,0 +1,11 @@
+
+strategic_region={
+	id=27
+	name="STRATEGICREGION_27"
+	provinces={
+		19601 19630 19637 19799 19825 20000 20064 20073 
+	}
+	naval_terrain=water_shallow_sea
+	weather={
+	}
+}

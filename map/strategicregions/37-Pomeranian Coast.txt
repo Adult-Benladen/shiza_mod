@@ -1,0 +1,11 @@
+
+strategic_region={
+	id=37
+	name="STRATEGICREGION_37"
+	provinces={
+		19667 19669 19677 19703 19711 19726 19742 19781 19796 19815 19837 19868 19899 19903 19923 19933 19994 19999 20006 20016 20017 20018 20022 20070 20072 
+	}
+	naval_terrain=water_shallow_sea
+	weather={
+	}
+}

@@ -1,0 +1,18 @@
+state={
+	id=573
+	name="STATE_573"
+	provinces={
+		6621 11302 
+	}
+	history={
+		buildings = {
+			infrastructure = 3
+		}
+
+		owner = LOM
+		add_core_of = LOM
+	}
+	manpower=44131
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

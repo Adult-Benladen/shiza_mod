@@ -1,0 +1,18 @@
+state={
+	id=327
+	name="STATE_327"
+	provinces={
+		10790 
+	}
+	history={
+		buildings = {
+			infrastructure = 6
+		}
+
+		owner = LOM
+		add_core_of = LOM
+	}
+	manpower=94639
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

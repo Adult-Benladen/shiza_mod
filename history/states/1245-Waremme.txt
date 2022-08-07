@@ -1,0 +1,18 @@
+state={
+	id=1245
+	name="STATE_1245"
+	provinces={
+		5347 9597 9807 
+	}
+	history={
+		buildings = {
+			infrastructure = 4
+		}
+
+		owner = HOL
+		add_core_of = HOL
+	}
+	manpower=68049
+	buildings_max_level_factor=1.000
+	state_category=rural
+}
