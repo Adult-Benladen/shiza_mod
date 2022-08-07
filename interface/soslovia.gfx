@@ -100,8 +100,7 @@ spriteTypes = {
 	}
 	
 	
-	######
-	IconsMini
+	######IconsMini
 	spriteType = {
 		name = "GFX_wood_texticon"
 		texturefile = "gfx/texticons/wood_icon.dds"

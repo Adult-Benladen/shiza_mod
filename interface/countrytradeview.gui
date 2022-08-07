@@ -287,6 +287,8 @@ guiTypes = {
 			position = { x = 15 y = 427 }	
 			size = { width = 535 height = 100%% }
 			verticalScrollbar = "right_vertical_slider"
+			scroll_wheel_factor = 45
+			smooth_scrolling = yes
 			margin = {top = 1 bottom = 13 }			
 				
 			background = {
@@ -498,27 +500,27 @@ guiTypes = {
 				position = { x=-19 y = -17 }
 				clicksound = click_scroll
 			}
-			instantTextboxType = {
-				name = "min_amount"
-				position = { x = 74 y = 320 }
-				font = "hoi_18mbs"
-				text = "0"
-				maxWidth = 35
-				maxHeight = 18
-				format = center
-			}
-			
-			instantTextboxType = {
-				name = "max_amount"
-				position = { x = 424 y = 320 }
-				font = "hoi_18mbs"
-				text = "max"
-				maxWidth = 35
-				maxHeight = 18
-				format = center			
-			}
 		}
 			
+		instantTextboxType = {
+			name = "min_amount"
+			position = { x = 74 y = 320 }
+			font = "hoi_18mbs"
+			text = "0"
+			maxWidth = 35
+			maxHeight = 18
+			format = center
+		}
+			
+		instantTextboxType = {
+			name = "max_amount"
+			position = { x = 424 y = 320 }
+			font = "hoi_18mbs"
+			text = "max"
+			maxWidth = 35
+			maxHeight = 18
+			format = center			
+		}
 			
 		iconType ={
 			name ="warning_icon"

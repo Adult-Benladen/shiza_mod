@@ -291,7 +291,14 @@ guiTypes = {
 				alwaystransparent = yes
 			}			
 
-			
+			instantTextboxType = {
+				name = "province"
+				position = { x = 23 y= -29 }
+				font = "hoi_18mbs"
+				maxWidth = 80
+				maxHeight = 30
+				format = left
+			}
 			
 			iconType = {
 				name = "province_required_rule"
@@ -308,6 +315,14 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 			}
 			
+			iconType = {
+				name = "modifiers_snow_icons"
+				position = { x = 0 y= 0 }
+				spriteType = "GFX_modifiers_snow_icons"
+				Orientation = "UPPER_LEFT"
+				frame = 1
+			}
+
 			iconType = {
 				name = "modifiers_weather_icons"
 				position = { x = 0 y= 0 }
@@ -370,6 +385,12 @@ guiTypes = {
 			}
 			
 			
+			buttonType = {
+   
+				name = "nuke_province"
+				quadTextureSprite ="GFX_nuke_button"
+				position = { x= 13 y = -11 }
+			}
 			
 			iconType = {
 				name = "nuclear_strike_bar"
@@ -395,6 +416,14 @@ guiTypes = {
 			Orientation = "UPPER_RIGHT"
 			clicksound = click_close
 			pdx_tooltip = "CLOSE"
+		}
+
+		buttonType = {
+			name = "scorched_earth_state_button"
+			position = { x = -31 y = 135 }
+			quadTextureSprite ="GFX_scorched_earth"
+			buttonFont = "Main_14_black"
+			Orientation = "UPPER_RIGHT"
 		}
 	}
 	

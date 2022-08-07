@@ -22,7 +22,24 @@ on_actions = {
 	
 	
 
-	
+	on_startup = {
+		effect = {
+			randomize_temp_variable = {
+				var = num_aluminium
+				distribution = uniform
+				min = 1
+				max = 8
+			}
+			
+			random_state = {
+				add_resource = {
+					type = num_aluminium
+					amount = 50
+					state = PREV
+				}
+			}
+		}
+	}
 
 	
 	

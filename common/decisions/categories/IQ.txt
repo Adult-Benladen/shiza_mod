@@ -1,6 +1,0 @@
-new_iq_level = {
-
-	icon = generic_propaganda
-
-
-}

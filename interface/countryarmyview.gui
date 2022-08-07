@@ -302,8 +302,8 @@ guiTypes = {
 				name = "army_sort_name"
 				position = { x = 125 y = 185 }
 				size = { x = 179 y = 23 }
-				font = "hoi_16mbs"				
-				buttontext = "ARMY_SORT_NAME"				
+				font = "hoi_16mbs"
+				buttontext = "ARMY_SORT_NAME"
 				quadTextureSprite = "GFX_tiling_sort_button"
 				clicksound = click_default
 			}
@@ -311,10 +311,10 @@ guiTypes = {
 			buttonType = {
 				name = "army_sort_theatre"
 				position = { x = 302 y = 185 }
-				size = { x = 148 y = 23 }				
+				size = { x = 148 y = 23 }
 				quadTextureSprite = "GFX_tiling_sort_button"
-				font = "hoi_16mbs"				
-				buttontext = "ARMY_SORT_THEATRE"				
+				font = "hoi_16mbs"
+				buttontext = "ARMY_SORT_THEATRE"
 				clicksound = click_default
 			}
 			
@@ -331,10 +331,10 @@ guiTypes = {
 			buttonType = {
 				name = "army_sort_group"
 				position = { x = 447 y = 185 }
-				size = { x = 64 y = 23 }				
+				size = { x = 64 y = 23 }
 				quadTextureSprite = "GFX_tiling_sort_button"
 				font = "hoi_16mbs"				
-				buttontext = "ARMY_SORT_GROUP"				
+				buttontext = "ARMY_SORT_GROUP"
 				clicksound = click_default
 			}
 			
@@ -345,6 +345,8 @@ guiTypes = {
 			position = { x = 0 y = 257 }
 			size = { width = 100% height = 100%% }
 			verticalScrollbar = "right_vertical_slider"
+			scroll_wheel_factor = 70
+			smooth_scrolling = yes
 			margin = { top = 13 left = 13 bottom = 40 right = 25}			
 			
 			background = {
@@ -392,10 +394,10 @@ guiTypes = {
 			buttonType = {
 				name = "navy_sort_type"
 				position = { x = 1 y = 160 }
-				size = { x = 164 y = 23 }				
+				size = { x = 164 y = 23 }
 				quadTextureSprite = "GFX_tiling_sort_button"
 				font = "hoi_16mbs"				
-				buttontext = "ARMY_SORT_TYPE"				
+				buttontext = "ARMY_SORT_TYPE"
 				clicksound = click_default
 			}
 
@@ -422,10 +424,10 @@ guiTypes = {
 			buttonType = {
 				name = "navy_sort_region"
 				position = { x = 319 y = 160 }
-				size = { x = 128 y = 23 }				
+				size = { x = 128 y = 23 }
 				quadTextureSprite = "GFX_tiling_sort_button"
 				font = "hoi_16mbs"				
-				buttontext = "ARMY_SORT_REGION"				
+				buttontext = "ARMY_SORT_REGION"
 				clicksound = click_default
 			}
 		}
@@ -435,6 +437,8 @@ guiTypes = {
 			position = { x = 0 y = 232 }
 			size = { width = 100% height = 100%% }
 			verticalScrollbar = "right_vertical_slider"
+			scroll_wheel_factor = 70
+			smooth_scrolling = yes
 			margin = { top = 13 left = 13 bottom = 40 right = 25}			
 			
 			background = {
@@ -472,46 +476,241 @@ guiTypes = {
 			buttonType = {
 				name = "air_sort_type"
 				position = { x = 2 y = 220 }
-				size = { x = 135 y = 23 }				
+				size = { x = 135 y = 23 }
 				quadTextureSprite = "GFX_tiling_sort_button"
 				font = "hoi_16mbs"				
-				buttontext = "ARMY_SORT_TYPE"				
+				buttontext = "ARMY_SORT_TYPE"
 				clicksound = click_default
 			}
 			
 			buttonType = {
 				name = "air_sort_name"
 				position = { x = 138 y = 220 }
-				size = { x = 133 y = 23 }				
+				size = { x = 133 y = 23 }
 				quadTextureSprite = "GFX_tiling_sort_button"
 				font = "hoi_16mbs"				
-				buttontext = "ARMY_SORT_NAME"				
+				buttontext = "ARMY_SORT_NAME"
 				clicksound = click_default
 			}
 			
 			buttonType = {
 				name = "air_sort_region"
 				position = { x = 396 y = 220 }
-				size = { x = 116 y = 23 }				
+				size = { x = 116 y = 23 }
 				quadTextureSprite = "GFX_tiling_sort_button"
 				font = "hoi_16mbs"				
-				buttontext = "ARMY_SORT_REGION"				
+				buttontext = "ARMY_SORT_REGION"
 				clicksound = click_default
 			}
 			
 			buttonType = {
 				name = "air_sort_base"
 				position = { x = 270 y = 220 }
-				size = { x = 128 y = 23 }				
+				size = { x = 128 y = 23 }
 				quadTextureSprite = "GFX_tiling_sort_button"
 				font = "hoi_16mbs"				
-				buttontext = "ARMY_SORT_BASE"				
+				buttontext = "ARMY_SORT_BASE"
 				clicksound = click_default
 			}
 
 			iconType = {
 				name = "wing_type_bg"
 				spriteType = "GFX_wing_type_bg"
+				position = { x=6 y=128 }
+				orientation = "UPPER_LEFT"
+			}
+
+			iconType = {
+				name = "wing_type_left_0"
+				spriteType = "GFX_air_overview_plane_strip"
+				position = { x=19 y=180 }
+				orientation = "UPPER_LEFT"
+				frame = 1
+			}
+			instantTextboxType = {
+				name = "wing_type_left_text_0"
+				position = { x=15 y=160 }
+				font = "hoi_18mbs"
+				maxWidth = 60
+				maxHeight = 23
+				format = center
+			}
+
+			iconType = {
+				name = "wing_type_left_1"
+				spriteType = "GFX_air_overview_plane_strip"
+				position = { x=80 y=180 }
+				orientation = "UPPER_LEFT"
+				frame = 2
+			}
+			instantTextboxType = {
+				name = "wing_type_left_text_1"
+				position = { x=77 y=160 }
+				font = "hoi_18mbs"
+				maxWidth = 60
+				maxHeight = 23
+				format = center
+			}
+
+			# NOTE - frame 3 is at the end of this list!
+
+			iconType = {
+				name = "wing_type_left_2"
+				spriteType = "GFX_air_overview_plane_strip"
+				position = { x=143 y=180 }
+				orientation = "UPPER_LEFT"
+				frame = 4
+			}
+			instantTextboxType = {
+				name = "wing_type_left_text_2"
+				position = { x=140 y=160 }
+				font = "hoi_18mbs"
+				maxWidth = 60
+				maxHeight = 23
+				format = center
+			}
+
+			iconType = {
+				name = "wing_type_left_3"
+				spriteType = "GFX_air_overview_plane_strip"
+				position = { x=203 y=180 }
+				orientation = "UPPER_LEFT"
+				frame = 5
+			}
+			instantTextboxType = {
+				name = "wing_type_left_text_3"
+				position = { x=200 y=160 }
+				font = "hoi_18mbs"
+				maxWidth = 60
+				maxHeight = 23
+				format = center
+			}
+
+			iconType = {
+				name = "wing_type_left_4"
+				spriteType = "GFX_air_overview_plane_strip"
+				position = { x=264 y=180 }
+				orientation = "UPPER_LEFT"
+				frame = 6
+			}
+			instantTextboxType = {
+				name = "wing_type_left_text_4"
+				position = { x=263 y=160 }
+				font = "hoi_18mbs"
+				maxWidth = 60
+				maxHeight = 23
+				format = center
+			}
+
+			iconType = {
+				name = "wing_type_left_5"
+				spriteType = "GFX_air_overview_plane_strip"
+				position = { x=326 y=180 }
+				orientation = "UPPER_LEFT"
+				frame = 7
+			}
+			instantTextboxType = {
+				name = "wing_type_left_text_5"
+				position = { x=325 y=160 }
+				font = "hoi_18mbs"
+				maxWidth = 60
+				maxHeight = 23
+				format = center
+			}
+
+			iconType = {
+				name = "wing_type_left_6"
+				spriteType = "GFX_air_overview_plane_strip"
+				position = { x=388 y=180 }
+				orientation = "UPPER_LEFT"
+				frame = 8
+			}
+			instantTextboxType = {
+				name = "wing_type_left_text_6"
+				position = { x=387 y=160 }
+				font = "hoi_18mbs"
+				maxWidth = 60
+				maxHeight = 23
+				format = center
+			}
+
+			iconType = {
+				name = "wing_type_left_7"
+				spriteType = "GFX_air_overview_plane_strip"
+				position = { x=449 y=178 }
+				orientation = "UPPER_LEFT"
+				frame = 3
+			}
+			instantTextboxType = {
+				name = "wing_type_left_text_7"
+				position = { x=448 y=160 }
+				font = "hoi_18mbs"
+				maxWidth = 60
+				maxHeight = 23
+				format = center
+			}
+		}
+
+		containerWindowType = {
+			name = "air_header_old"
+			position = { x = 0 y = 40 }
+			size = { width = 100% height = 100%% }
+			verticalScrollbar = "right_vertical_slider"
+			margin = { top = 13 left = 13 bottom = 0 right = 25}
+
+			gridBoxType = {
+				name = "modifiers_grid"
+				position = { x = 2 y = 60 }
+				size = { width = 500 height = 35 }
+				slotsize = { width = 74 height = 33 }
+				max_slots_horizontal = 7
+				max_slots_vertical = 2
+				format = "UPPER_LEFT"
+			}
+
+			buttonType = {
+				name = "air_sort_type"
+				position = { x = 2 y = 220 }
+				size = { x = 135 y = 23 }
+				quadTextureSprite = "GFX_tiling_sort_button"
+				font = "hoi_16mbs"
+				buttontext = "ARMY_SORT_TYPE"
+				clicksound = click_default
+			}
+
+			buttonType = {
+				name = "air_sort_name"
+				position = { x = 138 y = 220 }
+				size = { x = 133 y = 23 }
+				quadTextureSprite = "GFX_tiling_sort_button"
+				font = "hoi_16mbs"
+				buttontext = "ARMY_SORT_NAME"
+				clicksound = click_default
+			}
+
+			buttonType = {
+				name = "air_sort_region"
+				position = { x = 396 y = 220 }
+				size = { x = 116 y = 23 }
+				quadTextureSprite = "GFX_tiling_sort_button"
+				font = "hoi_16mbs"
+				buttontext = "ARMY_SORT_REGION"
+				clicksound = click_default
+			}
+
+			buttonType = {
+				name = "air_sort_base"
+				position = { x = 270 y = 220 }
+				size = { x = 128 y = 23 }
+				quadTextureSprite = "GFX_tiling_sort_button"
+				font = "hoi_16mbs"
+				buttontext = "ARMY_SORT_BASE"
+				clicksound = click_default
+			}
+
+			iconType = {
+				name = "wing_type_bg"
+				spriteType = "GFX_wing_type_bg_old"
 				position = { x=6 y=144 }
 				orientation = "UPPER_LEFT"
 			}
@@ -522,7 +721,7 @@ guiTypes = {
 				position = { x=22 y=180 }
 				orientation = "UPPER_LEFT"
 				frame = 1
-			}		
+			}
 			instantTextboxType = {
 				name = "wing_type_left_text_0"
 				position = { x=21 y=160 }
@@ -739,7 +938,7 @@ guiTypes = {
 		}
 		
 		iconType = {
-			name = "flag"
+			name = "expeditionary_flag"
 			quadTextureSprite = "GFX_mapicon_unit_flag"
 			position = { x=63 y=20 }
 		}
@@ -775,6 +974,13 @@ guiTypes = {
 			scale = 0.7
 		}
 		
+		iconType = {
+			name = "obsolete_template_warning"
+			quadTextureSprite ="GFX_obsolete_template_warning"
+			position = { x= 16 y = 6 }
+			pdx_tooltip = "DECOMMISSIONED_TEMPLATE_WARNING_TOOLTIP"
+		}
+
 		iconType = {
 			name = "organization_progressbar"
 			spriteType = "GFX_navieslist_bar_org"
@@ -922,7 +1128,7 @@ guiTypes = {
 			position = { x=15 y=24 }
 			centerposition = yes
 			scale = 0.8
-			pdx_tooltip = AIR_CARRIER_CAPABLE			
+			pdx_tooltip = AIR_CARRIER_CAPABLE
 		}
 		
 		iconType = {
@@ -952,7 +1158,7 @@ guiTypes = {
 		
 		iconType = {
 			name = "bar_filled"
-			spriteType = "GFX_navieslist_bar_org"
+			spriteType = "GFX_navieslist_bar_str"
 			position = { x=94 y=25 }
 			rotation = 1.5708
 		}

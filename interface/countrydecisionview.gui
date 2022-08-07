@@ -54,6 +54,9 @@ guiTypes = {
 			Orientation = upper_left
 
 			verticalScrollbar = "right_vertical_slider"
+			vertical_scroll_step = 41
+			scroll_wheel_factor = 40
+			smooth_scrolling = yes
 
 			background = {
 				name = "Background"
@@ -107,6 +110,14 @@ guiTypes = {
 			format = center
 			#alwaystransparent = yes
 			fixedsize=yes
+		}
+		
+		buttonType = {
+			name = "track_decisions_checkbox"
+			position = { x = 447 y = 26 }
+			quadTextureSprite = "GFX_checkbox_small5"
+			clicksound = decisions_ui_button
+			frame = 2
 		}
 		
 		buttonType = {
@@ -236,6 +247,7 @@ guiTypes = {
 				position = { x = -11 y = -7 }
 				quadTextureSprite = "GFX_generic_checkbox3"
 				clicksound = decisions_ui_button
+				pdx_tooltip = "EVENT_POPUP_CHECKBOX_TOOLTIP"
 			}
 
 			instantTextboxType = {
@@ -395,6 +407,20 @@ guiTypes = {
 			format = left
 		}
 
+		iconType = {
+			name = "target_flag"	
+			position = { x= 32 y = 17 }			
+			quadTextureSprite = "GFX_flag_small2_not_masked"
+			scale = 0.5
+		}
+		iconType = {
+			name = "target_flag_frame"
+			quadTextureSprite = "GFX_small_flag_frame_thin2"
+			position = { x= 30 y = 15 }
+			alwaystransparent = yes
+			scale = 0.5
+		}
+
 		instantTextboxType = {
 			name = "cost_and_timer_text"
 			position = { x = 112 y = 8 }
@@ -538,7 +564,7 @@ guiTypes = {
 		iconType = {
 			name = "btn_progress_good"
 			position = {x=9 y=28}
-			spriteType = "GFX_decision_item_progress_good"			
+			spriteType = "GFX_decision_item_progress_good"
 		}
 
 		iconType = {
@@ -552,6 +578,20 @@ guiTypes = {
 			position = {x=32 y=20}
 			spriteType = "GFX_decision_unknown"
 			centerposition = yes
+		}
+
+		iconType = {
+			name = "target_flag"	
+			position = { x= 32 y = 17 }			
+			quadTextureSprite = "GFX_flag_small2_not_masked"
+			scale = 0.5
+		}
+		iconType = {
+			name = "target_flag_frame"
+			quadTextureSprite = "GFX_small_flag_frame_thin2"
+			position = { x= 30 y = 15 }
+			alwaystransparent = yes
+			scale = 0.5
 		}
 
 		instantTextboxType = {
