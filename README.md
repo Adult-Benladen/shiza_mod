@@ -17,7 +17,7 @@
 КОНЧЕННЫЙ ИДИОТ - Old Europe 1300 <br>
 САМЫЙ СЕКСУАЛЬНЫЙ МУЖИК В МИРЕ - Казаки 2: Битва за Европу <br>
 ГОРЯЧАЯ ЧИКСА - Ultra-detailed Central Europe Map Resource <br>
-ЗЛОДЕЙ БРИТАНЕЦ - <br>
+ЗЛОДЕЙ БРИТАНЕЦ - Napoleonic World <br>
 ТАК СЕБЕ ШУТНИК - <br>
 ПУПЕРТАНТНАЯ ЯЗВА - PARADOX CRASH REPORTER <br>
 КАКОЙ-ТО МУЖИК - GSC <br>
